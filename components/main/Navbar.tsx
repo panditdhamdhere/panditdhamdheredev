@@ -13,13 +13,7 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <Image
-            src={"/Navlogo.png"}
-            alt="logo"
-            width={70}
-            height={70}
-            className="cursor-pointer hover:animate-slow-spin"
-          />
+          
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
             panditDev
@@ -41,7 +35,7 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-        <div className="text-gray-300">Connect Wallet</div>
+        {/* <div className="text-gray-300">Connect Wallet</div> */}
 
         <div className="flex flex-row gap-5 text-gray-300">
           {/* {Socials.map((social) => (
